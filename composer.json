@@ -1,0 +1,26 @@
+{
+  "name": "codepeak/statuscake",
+  "description": "Adds a route for checks with Statuscake (or similar)",
+  "require": {
+    "laravel/framework": "^5.5"
+  },
+  "authors": [
+    {
+      "name": "Robert Lord",
+      "email": "robert@codepeak.se"
+    }
+  ],
+  "minimum-stability": "dev",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Codepeak\\Statuscake\\App\\Providers\\StatuscakeServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Codepeak\\Statuscake\\":"src/"
+    }
+  }
+}
