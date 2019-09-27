@@ -2,7 +2,7 @@
   "name": "codepeak/statuscake",
   "description": "Adds a route for checks with Statuscake (or similar)",
   "require": {
-    "laravel/framework": "^5.5"
+    "laravel/framework": "^6.0"
   },
   "authors": [
     {
